@@ -8,7 +8,7 @@ const Greeting = () => {
       <h2 className="text-4xl text-muted-foreground font-semibold mt-2">
         Navigating the tech landscape with <LanguagesTyped />
       </h2>
-      <p className="text-muted-foreground mt-8">
+      <p className="text-muted-foreground mt-8 max-w-3xl">
         I harness the transformative power of programming and technology to
         drive innovation and deliver impactful solutions. With a rich skill set
         I craft dynamic, scalable digital solutions that meets the demands of
