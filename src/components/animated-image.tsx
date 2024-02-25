@@ -37,7 +37,7 @@ const AnimatedImage = ({
   }, []);
 
   return (
-    <div className="flex gap-4">
+    <div className="flex gap-8">
       <div className="flex-1 space-y-4">
         <h3 className="text-xl font-semibold">{title}</h3>
 
