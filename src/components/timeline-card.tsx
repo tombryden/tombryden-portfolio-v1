@@ -1,4 +1,4 @@
-import { Globe } from "lucide-react";
+import { LucideIcon } from "lucide-react";
 import BulletPoint from "./bullet-point";
 import {
   Card,
@@ -12,9 +12,17 @@ import { Separator } from "./ui/separator";
 const TimelineCard = ({
   right,
   bulletpoints,
+  title,
+  company,
+  time,
+  Icon,
 }: {
   right?: boolean;
   bulletpoints: string[];
+  title: string;
+  company: string;
+  time: string;
+  Icon: LucideIcon;
 }) => {
   const rightFlexReverse = right ? " flex-row-reverse" : "";
 
@@ -25,10 +33,10 @@ const TimelineCard = ({
       <Card className="flex-1">
         <CardHeader>
           <CardTitle>
-            IT Consultant - UKI Quality Engineering Practice
-            <span className="text-primary"> @ IBM</span>
+            {title}
+            <span className="text-primary"> @ {company}</span>
           </CardTitle>
-          <CardDescription>2018 - Present</CardDescription>
+          <CardDescription>{time}</CardDescription>
         </CardHeader>
         <CardContent className="ml-6 space-y-4">
           {bulletpoints.map((bullet, index) => (
@@ -39,7 +47,7 @@ const TimelineCard = ({
 
       <div className={`w-20 flex flex-col${rightAlignEnd} items-center`}>
         <div>
-          <Globe className={`text-muted-foreground size-10 my-4`} />
+          <Icon className={`text-muted-foreground size-10 my-4`} />
         </div>
         <Separator orientation="vertical" />
       </div>
