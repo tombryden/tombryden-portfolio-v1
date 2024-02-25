@@ -9,7 +9,7 @@ const SimpleBulletCard = ({
   title: string;
 }) => {
   return (
-    <Card>
+    <Card className="simpleBulletCard">
       <CardHeader>
         <CardTitle>{title}</CardTitle>
       </CardHeader>

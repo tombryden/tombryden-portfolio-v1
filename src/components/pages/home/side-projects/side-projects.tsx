@@ -1,9 +1,8 @@
 import AnimatedImage from "@/components/animated-image";
 import AnimatedP from "@/components/animated-p";
-import BulletPoint from "@/components/bullet-point";
 import NumberSubtitle from "@/components/number-subtitle";
 import SimpleBulletCard from "@/components/simple-bullet-card";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import HonerableMentions from "./honerable-mentions";
 
 const adaprioBullets = [
   "A course creation platform that allows users to sign up and create their own area of courses.",
@@ -24,19 +23,6 @@ const hotelPitBullets = [
   "The website was a mock of a hotel booking website to simulate real-life scenarios testers might experience when working for a client of IBM.",
   "Utilised the Material UI library for quick design implementation.",
   "Achieved a First-Class grade.",
-];
-
-const bookingPoints = [
-  "Created a booking system using a React front-end and a Java (Spring Boot REST API) back-end.",
-  "Venue owners could sign up for an account, and subscribe to the platform to create their own customisable venue.",
-  "This was integrated with Stripe to handle payment processing.",
-  "Users could purchase bookable services from the venues (E.G. a hair cut) – eliminating the need for pen and paper booking systems.",
-];
-
-const minecraftPoints = [
-  "Began my programming journey at age 12 by custom-coding plugins for my Minecraft server using Java and a MySQL database.",
-  "Implemented monetisation strategies for the custom features created within the Minecraft server.",
-  "Generated substantial income from the monetised features, marking an early success in my programming career.",
 ];
 
 const SideProjects = () => {
@@ -76,16 +62,7 @@ const SideProjects = () => {
         And some honerable mentions...
       </AnimatedP>
 
-      <div className="grid grid-cols-2 gap-8">
-        <SimpleBulletCard
-          title="Booking System Platform"
-          bulletPoints={bookingPoints}
-        />
-        <SimpleBulletCard
-          title="Custom-coded Minecraft Server"
-          bulletPoints={minecraftPoints}
-        />
-      </div>
+      <HonerableMentions />
     </section>
   );
 };
