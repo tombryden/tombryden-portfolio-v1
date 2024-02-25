@@ -1,8 +1,7 @@
-import AnimatedImage from "@/components/animated-image";
 import AnimatedP from "@/components/animated-p";
 import NumberSubtitle from "@/components/number-subtitle";
-import SimpleBulletCard from "@/components/simple-bullet-card";
 import HonerableMentions from "./honerable-mentions";
+import AnimatedDescriptionImage from "@/components/animated-description-image";
 
 const adaprioBullets = [
   "A course creation platform that allows users to sign up and create their own area of courses.",
@@ -36,21 +35,21 @@ const SideProjects = () => {
       </AnimatedP>
 
       <div className="space-y-20 mt-10">
-        <AnimatedImage
+        <AnimatedDescriptionImage
           title="Adaprio - Course Creation Platform"
           bulletPoints={adaprioBullets}
           alt="Adaprio Home Page"
           src="/images/projects/adaprio/home.png"
         />
 
-        <AnimatedImage
+        <AnimatedDescriptionImage
           title="HotelPit - University First-Class Grade Dissertation"
           bulletPoints={hotelPitBullets}
           alt="HotelPit Home Page"
           src="/images/projects/hotelpit/home.jpg"
         />
 
-        <AnimatedImage
+        <AnimatedDescriptionImage
           title="Lootable - Group Buying E-Commerce Store"
           bulletPoints={lootableBullets}
           alt="Lootable Home Page"

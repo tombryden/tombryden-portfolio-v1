@@ -6,7 +6,7 @@ import gsap from "gsap";
 import { AspectRatio } from "./ui/aspect-ratio";
 import BulletPoint from "./bullet-point";
 
-const AnimatedImage = ({
+const AnimatedDescriptionImage = ({
   alt,
   src,
   bulletPoints,
@@ -64,4 +64,4 @@ const AnimatedImage = ({
   );
 };
 
-export default AnimatedImage;
+export default AnimatedDescriptionImage;
