@@ -41,9 +41,11 @@ const AnimatedImage = ({
       <div className="flex-1 space-y-4">
         <h3 className="text-xl font-semibold">{title}</h3>
 
-        {bulletPoints.map((bullet, index) => (
-          <BulletPoint key={index} text={bullet} />
-        ))}
+        <div className="space-y-4 ml-6">
+          {bulletPoints.map((bullet, index) => (
+            <BulletPoint key={index} text={bullet} />
+          ))}
+        </div>
       </div>
 
       <div className="flex-1">
@@ -54,7 +56,7 @@ const AnimatedImage = ({
             src={src}
             fill
             className="rounded"
-            style={{ objectFit: "contain", objectPosition: "top" }}
+            style={{ objectFit: "cover", objectPosition: "top" }}
           />
         </AspectRatio>
       </div>
