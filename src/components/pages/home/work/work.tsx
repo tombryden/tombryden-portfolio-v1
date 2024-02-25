@@ -13,6 +13,9 @@ const IBMPoints = [
   "Emerged as a highly adaptable and essential contributor to the software testing and development sphere.",
 ];
 
+// not the best but will do for now...
+const iconClassname = "text-muted-foreground size-10 my-4";
+
 const Work = () => {
   return (
     <section className="mt-24">
@@ -23,14 +26,14 @@ const Work = () => {
         title="IT Consultant - UKI Quality Engineering Practice"
         company="IBM"
         time="2018 - Present"
-        Icon={Globe}
+        icon={<Globe className={iconClassname} />}
       />
       <TimelineCard
         bulletpoints={IBMPoints}
         title="IT Consultant - UKI Quality Engineering Practice"
         company="IBM"
         time="2018 - Present"
-        Icon={Cpu}
+        icon={<Cpu className={iconClassname} />}
         right
       />
     </section>
