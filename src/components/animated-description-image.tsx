@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { ReactNode, useEffect, useRef } from "react";
 import Image from "next/image";
 import gsap from "gsap";
 import { AspectRatio } from "./ui/aspect-ratio";
@@ -11,11 +11,13 @@ const AnimatedDescriptionImage = ({
   src,
   bulletPoints,
   title,
+  afterBullet,
 }: {
   alt: string;
   src: string;
   bulletPoints: string[];
   title: string;
+  afterBullet?: ReactNode;
 }) => {
   const imageRef = useRef<HTMLImageElement>(null);
 
@@ -45,6 +47,8 @@ const AnimatedDescriptionImage = ({
           {bulletPoints.map((bullet, index) => (
             <BulletPoint key={index} text={bullet} />
           ))}
+
+          {afterBullet && afterBullet}
         </div>
       </div>
 

@@ -40,6 +40,27 @@ const SideProjects = () => {
           bulletPoints={adaprioBullets}
           alt="Adaprio Home Page"
           src="/images/projects/adaprio/home.png"
+          afterBullet={
+            <p className="text-muted-foreground">
+              Adaprio is still live,{" "}
+              <a
+                className="text-primary"
+                href="https://adaprio.com"
+                target="_blank"
+              >
+                check it out.
+              </a>{" "}
+              You can also see an{" "}
+              <a
+                href="https://adaprio.com/academy/example"
+                className="text-primary"
+                target="_blank"
+              >
+                example academy
+              </a>{" "}
+              created using Adaprio.
+            </p>
+          }
         />
 
         <AnimatedDescriptionImage
