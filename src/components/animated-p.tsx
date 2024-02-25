@@ -14,7 +14,7 @@ const AnimatedP = ({
       gsap.from(pRef.current, {
         scrollTrigger: {
           trigger: pRef.current,
-          start: "center bottom",
+          start: "bottom bottom",
         },
         opacity: 0,
         y: 60,
