@@ -57,6 +57,7 @@ const AnimatedDescriptionImage = ({
             fill
             className="rounded"
             style={{ objectFit: "cover", objectPosition: "top" }}
+            sizes="50vw"
           />
         </AspectRatio>
       </div>
