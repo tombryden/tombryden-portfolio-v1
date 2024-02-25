@@ -45,7 +45,7 @@ const iconClassname = "text-muted-foreground size-10 my-4";
 
 const Work = () => {
   return (
-    <section className="mt-24">
+    <section>
       <NumberSubtitle number="02." title="Experience" />
 
       <TimelineCard
