@@ -1,12 +1,12 @@
 "use client";
 
-import CircleIcon from "@/components/circle-icon";
+import { Button } from "@/components/ui/button";
 import gsap from "gsap";
 import { MoveDown } from "lucide-react";
 import { useEffect, useRef } from "react";
 
 const AnimatedMovedown = () => {
-  const ref = useRef<HTMLDivElement>(null);
+  const ref = useRef<HTMLButtonElement>(null);
   const animationRef = useRef<GSAPTween | null>(null);
 
   useEffect(() => {
@@ -26,13 +26,17 @@ const AnimatedMovedown = () => {
   const handleResume = () => animationRef.current?.resume();
 
   return (
-    <CircleIcon
+    <Button
       ref={ref}
-      className="absolute bottom-10"
-      Icon={<MoveDown />}
+      variant="outline"
+      size="icon"
+      className="absolute bottom-10 rounded-full"
+      // Icon={<MoveDown />}
       onMouseEnter={handlePause}
       onMouseLeave={handleResume}
-    />
+    >
+      <MoveDown />
+    </Button>
   );
 };
 
