@@ -26,7 +26,7 @@ const hotelPitBullets = [
 
 const SideProjects = () => {
   return (
-    <section className="mb-60">
+    <section>
       <NumberSubtitle number="03." title="Side Projects" />
 
       <AnimatedP className="text-muted-foreground text-3xl font-semibold max-w-[50%]">
@@ -62,6 +62,16 @@ const SideProjects = () => {
       </AnimatedP>
 
       <HonerableMentions />
+
+      <div className="mt-20 mb-20 text-center">
+        <a
+          href="https://github.com/tombryden/tombryden-portfolio-v1"
+          className="text-primary"
+          target="_blank"
+        >
+          Feel free to check out the source code for this page!
+        </a>
+      </div>
     </section>
   );
 };
