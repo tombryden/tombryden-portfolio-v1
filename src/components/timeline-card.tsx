@@ -6,7 +6,6 @@ import {
   CardTitle,
   CardDescription,
   CardContent,
-  CardFooter,
 } from "./ui/card";
 import { Separator } from "./ui/separator";
 
@@ -21,9 +20,6 @@ const TimelineCard = ({
 
   const rightAlignEnd = right ? " items-end" : "";
 
-  const translateGlobe = right ? "translate-x-1/2" : "-translate-x-1/2";
-
-  const seperatorMargin = right ? "mr-10" : "ml-10";
   return (
     <div className={`flex${rightFlexReverse}`}>
       <Card className="flex-1">
