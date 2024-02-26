@@ -1,5 +1,5 @@
 ## Intro
-My portfolio page I designed & created over this weekend - 24/02/24. Feel free to fork :)
+[My portfolio page](https://tombryden.dev) I designed & created over this weekend - 24/02/24. Feel free to fork :)
 
 ## Technology Used
 - React
