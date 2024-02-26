@@ -29,7 +29,7 @@ const SideProjects = () => {
     <section>
       <NumberSubtitle number="03." title="Side Projects" />
 
-      <AnimatedP className="text-muted-foreground text-3xl font-semibold max-w-[50%]">
+      <AnimatedP className="text-xl md:text-3xl text-muted-foreground font-semibold md:max-w-[50%]">
         I&apos;ve been working on personal projects as a hobby since the age of
         12.
       </AnimatedP>
@@ -79,7 +79,7 @@ const SideProjects = () => {
         />
       </div>
 
-      <AnimatedP className="text-muted-foreground text-3xl font-semibold mt-10 mb-10">
+      <AnimatedP className="text-xl md:text-3xl text-muted-foreground font-semibold mt-10 mb-10">
         And some honerable mentions...
       </AnimatedP>
 

@@ -52,7 +52,7 @@ const AnimatedDescriptionImage = ({
         </div>
       </div>
 
-      <div className="flex-1">
+      <div className="hidden md:block flex-1">
         <AspectRatio ratio={16 / 9}>
           <Image
             ref={imageRef}

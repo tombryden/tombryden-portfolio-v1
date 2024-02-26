@@ -48,43 +48,45 @@ const Work = () => {
     <section>
       <NumberSubtitle number="02." title="Experience" />
 
-      <TimelineCard
-        bulletpoints={IBMPoints}
-        title="IT Consultant - UKI Quality Engineering Practice"
-        company="IBM"
-        time="2018 - Present"
-        icon={<Globe className={iconClassname} />}
-      />
-      <TimelineCard
-        bulletpoints={makerHubPoints}
-        title="Maker Leader"
-        company="York Maker Hub"
-        time="2017 - 2018"
-        icon={<Cpu className={iconClassname} />}
-        right
-      />
-      <TimelineCard
-        bulletpoints={avivaPoints}
-        title="Work Experience"
-        company="Aviva"
-        time="2017"
-        icon={<Briefcase className={iconClassname} />}
-      />
-      <TimelineCard
-        bulletpoints={riponPoints}
-        title="Software Engineer"
-        company="Ripon Cathedral"
-        time="2015 - 2017"
-        icon={<Laptop className={iconClassname} />}
-        right
-      />
-      <TimelineCard
-        bulletpoints={jamesPoints}
-        title="Work Experience"
-        company="King James School"
-        time="2016"
-        icon={<Network className={iconClassname} />}
-      />
+      <div className="space-y-6 lg:space-y-0">
+        <TimelineCard
+          bulletpoints={IBMPoints}
+          title="IT Consultant - UKI Quality Engineering Practice"
+          company="IBM"
+          time="2018 - Present"
+          icon={<Globe className={iconClassname} />}
+        />
+        <TimelineCard
+          bulletpoints={makerHubPoints}
+          title="Maker Leader"
+          company="York Maker Hub"
+          time="2017 - 2018"
+          icon={<Cpu className={iconClassname} />}
+          right
+        />
+        <TimelineCard
+          bulletpoints={avivaPoints}
+          title="Work Experience"
+          company="Aviva"
+          time="2017"
+          icon={<Briefcase className={iconClassname} />}
+        />
+        <TimelineCard
+          bulletpoints={riponPoints}
+          title="Software Engineer"
+          company="Ripon Cathedral"
+          time="2015 - 2017"
+          icon={<Laptop className={iconClassname} />}
+          right
+        />
+        <TimelineCard
+          bulletpoints={jamesPoints}
+          title="Work Experience"
+          company="King James School"
+          time="2016"
+          icon={<Network className={iconClassname} />}
+        />
+      </div>
     </section>
   );
 };

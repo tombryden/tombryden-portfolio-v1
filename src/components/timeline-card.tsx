@@ -73,13 +73,15 @@ const TimelineCard = ({
         </CardContent>
       </Card>
 
-      <div className={`w-20 flex flex-col${rightAlignEnd} items-center`}>
+      <div
+        className={`hidden lg:w-20 lg:flex lg:flex-col${rightAlignEnd} lg:items-center`}
+      >
         <div>{icon}</div>
         <Separator orientation="vertical" />
       </div>
 
       {/* blank div to allow for fixed width seperator for nice spacing */}
-      <div className={"flex-1"} />
+      <div className={"hidden lg:block lg:flex-1"} />
     </div>
   );
 };

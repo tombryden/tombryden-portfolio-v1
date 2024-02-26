@@ -30,7 +30,7 @@ const AnimatedMovedown = () => {
       ref={ref}
       variant="outline"
       size="icon"
-      className="absolute bottom-10 self-center rounded-full border-primary text-primary hover:text-primary/90 hover:border-primary/50"
+      className="absolute bottom-5 self-center rounded-full border-primary text-primary hover:text-primary/90 hover:border-primary/50"
       // Icon={<MoveDown />}
       onMouseEnter={handlePause}
       onMouseLeave={handleResume}

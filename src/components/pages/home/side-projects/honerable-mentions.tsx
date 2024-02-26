@@ -38,7 +38,10 @@ const HonerableMentions = () => {
   }, []);
 
   return (
-    <div className="grid grid-cols-2 gap-8" ref={honerableMentionsDivRef}>
+    <div
+      className="grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-8"
+      ref={honerableMentionsDivRef}
+    >
       <SimpleBulletCard
         title="Booking System Platform"
         bulletPoints={bookingPoints}
