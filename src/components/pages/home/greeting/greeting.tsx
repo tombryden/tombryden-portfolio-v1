@@ -1,18 +1,46 @@
+import { Button } from "@/components/ui/button";
 import LanguagesTyped from "./languages-typed";
-import AnimatedMovedown from "./animated-movedown";
 import Image from "next/image";
+import Link from "next/link";
+import { Github, Linkedin, MailPlus } from "lucide-react";
 
 const Greeting = () => {
   return (
     <section className="min-h-screen flex flex-col justify-center">
-      <Image
-        src="/images/linkedin.jpeg"
-        alt="Me Wearing a Suit"
-        className="rounded-full mx-auto md:mx-0"
-        height={240}
-        width={240}
-        priority
-      />
+      <div className="md:flex md:gap-4">
+        <Image
+          src="/images/linkedin.jpeg"
+          alt="Me Wearing a Suit"
+          className="rounded-full mx-auto md:mx-0"
+          height={240}
+          width={240}
+          priority
+        />
+
+        <div className="flex gap-4 justify-center md:justify-normal mt-4 md:mt-0">
+          <Button asChild size="icon">
+            <Link
+              href="https://www.linkedin.com/in/tom-bryden-91810a1a2/"
+              target="_blank"
+            >
+              <Linkedin />
+            </Link>
+          </Button>
+
+          <Button asChild size="icon">
+            <Link href="https://github.com/tombryden" target="_blank">
+              <Github />
+            </Link>
+          </Button>
+
+          <Button size="icon" asChild>
+            <a href="mailto:tombryden1@gmail.com">
+              <MailPlus />
+            </a>
+          </Button>
+        </div>
+      </div>
+
       <h1 className="text-3xl md:text-7xl text-foreground font-semibold mt-8">
         Tom Bryden
       </h1>
