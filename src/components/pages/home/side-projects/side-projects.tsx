@@ -58,7 +58,8 @@ const SideProjects = () => {
               >
                 example academy
               </a>{" "}
-              created using Adaprio.
+              created <span className="font-semibold">dynamically</span> using
+              Adaprio.
             </p>
           }
         />
