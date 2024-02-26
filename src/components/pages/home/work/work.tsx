@@ -6,7 +6,7 @@ const IBMPoints = [
   "Underwent an intensive degree apprenticeship at IBM for my first four years, allocating four days weekly to client work and one day to study.",
   "Achieved a First-Class Honours degree in Digital & Technology Solutions (Software Engineering Pathway).",
   "Smoothly transitioned to a full-time role within IBM's UKI Quality Engineering Practice.",
-  "Managed multiple teams through high pressure test phases.",
+  "Managed teams through high pressure test phases.",
   "Acquired broad experience in various industries.",
   "Fulfilled diverse testing duties, enhancing skills in API stubbing, automation suite development and more.",
   "Refined technical skills and deepened knowledge of sector-specific challenges.",
