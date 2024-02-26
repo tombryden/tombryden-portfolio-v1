@@ -25,7 +25,7 @@ const HonerableMentions = () => {
       gsap.from(".simpleBulletCard", {
         scrollTrigger: {
           trigger: honerableMentionsDivRef.current,
-          start: "bottom bottom",
+          start: "top bottom",
         },
         scale: 0,
         duration: 0.3,

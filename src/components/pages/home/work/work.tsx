@@ -48,7 +48,7 @@ const Work = () => {
     <section>
       <NumberSubtitle number="02." title="Experience" />
 
-      <div className="space-y-6 lg:space-y-0">
+      <div className="space-y-6 lg:space-y-0 overflow-hidden">
         <TimelineCard
           bulletpoints={IBMPoints}
           title="IT Consultant - UKI Quality Engineering Practice"

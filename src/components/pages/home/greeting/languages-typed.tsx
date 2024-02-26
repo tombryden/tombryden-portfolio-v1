@@ -13,6 +13,7 @@ const LanguagesTyped = () => {
       className="font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary-foreground"
       strings={[
         "React.",
+        "Next.js.",
         "Java.",
         "Spring Boot.",
         "GraphQL.",

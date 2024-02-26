@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Greeting = () => {
   return (
-    <section className="h-screen flex flex-col justify-center">
+    <section className="min-h-screen flex flex-col justify-center">
       <Image
         src="/images/linkedin.jpeg"
         alt="Me Wearing a Suit"
@@ -22,11 +22,11 @@ const Greeting = () => {
       <p className="text-muted-foreground mt-8 max-w-3xl">
         I harness the transformative power of programming and technology to
         drive innovation and deliver impactful solutions. With a rich skill set
-        I craft dynamic, scalable digital solutions that meets the demands of
+        I craft dynamic, scalable digital solutions that meet the demands of
         today&apos;s world.
       </p>
 
-      <AnimatedMovedown />
+      {/* <AnimatedMovedown /> */}
     </section>
   );
 };
