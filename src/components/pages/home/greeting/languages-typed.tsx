@@ -14,6 +14,7 @@ const LanguagesTyped = () => {
       strings={[
         "React.",
         "Next.js.",
+        "Node.js.",
         "Java.",
         "Spring Boot.",
         "GraphQL.",
