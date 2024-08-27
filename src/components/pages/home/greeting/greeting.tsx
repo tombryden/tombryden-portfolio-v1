@@ -34,7 +34,7 @@ const Greeting = () => {
           </Button>
 
           <Button size="icon" asChild>
-            <a href="mailto:tombryden1@gmail.com">
+            <a href="mailto:contact@tombryden.dev">
               <MailPlus />
             </a>
           </Button>
