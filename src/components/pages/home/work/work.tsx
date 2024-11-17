@@ -1,6 +1,13 @@
 import TimelineCard from "@/components/timeline-card";
 import NumberSubtitle from "../../../number-subtitle";
-import { Briefcase, Cpu, Globe, Laptop, Network } from "lucide-react";
+import { Braces, Briefcase, Cpu, Globe, Laptop, Network } from "lucide-react";
+
+const PrivaseePoints = [
+  "One of two devs leading the Privasee website rebuild from the ground up, determining tech stack, project structure and CI CD.",
+  "Ran database migrations to convert poorly structured data into a more efficient format.",
+  "Implemented a new design system, improving the user experience and making the site more visually appealing.",
+  "Developed a new AI solution which automates compliance questionnaire completion, already producing large revenue increases.",
+];
 
 const IBMPoints = [
   "Underwent an intensive degree apprenticeship at IBM for my first four years, allocating four days weekly to client work and one day to study.",
@@ -50,10 +57,18 @@ const Work = () => {
 
       <div className="space-y-6 lg:space-y-0 overflow-hidden">
         <TimelineCard
+          bulletpoints={PrivaseePoints}
+          title="Senior Software Engineer"
+          company="Privasee"
+          time="2024 - Present"
+          icon={<Braces className={iconClassname} />}
+          right
+        />
+        <TimelineCard
           bulletpoints={IBMPoints}
           title="IT Consultant - UKI Quality Engineering Practice"
           company="IBM"
-          time="2018 - Present"
+          time="2018 - 2024"
           icon={<Globe className={iconClassname} />}
         />
         <TimelineCard

@@ -28,10 +28,9 @@ const AnimatedDescriptionImage = ({
           trigger: imageRef.current,
           start: "bottom bottom",
         },
-        scale: "0.5",
+        y: "60",
         duration: 0.3,
         opacity: 0,
-        ease: "back",
       });
     });
 

@@ -36,32 +36,17 @@ const SideProjects = () => {
 
       <div className="space-y-20 mt-10">
         <AnimatedDescriptionImage
+          title="Lootable - Group Buying E-Commerce Store"
+          bulletPoints={lootableBullets}
+          alt="Lootable Home Page"
+          src="/images/projects/lootable/home.png"
+        />
+
+        <AnimatedDescriptionImage
           title="Adaprio - Course Creation Platform"
           bulletPoints={adaprioBullets}
           alt="Adaprio Home Page"
           src="/images/projects/adaprio/home.png"
-          afterBullet={
-            <p className="text-muted-foreground">
-              Adaprio is still live,{" "}
-              <a
-                className="text-primary"
-                href="https://adaprio.com"
-                target="_blank"
-              >
-                check it out.
-              </a>{" "}
-              You can also see an{" "}
-              <a
-                href="https://adaprio.com/academy/example"
-                className="text-primary"
-                target="_blank"
-              >
-                example academy
-              </a>{" "}
-              created <span className="font-semibold">dynamically</span> using
-              Adaprio.
-            </p>
-          }
         />
 
         <AnimatedDescriptionImage
@@ -69,13 +54,6 @@ const SideProjects = () => {
           bulletPoints={hotelPitBullets}
           alt="HotelPit Home Page"
           src="/images/projects/hotelpit/home.jpg"
-        />
-
-        <AnimatedDescriptionImage
-          title="Lootable - Group Buying E-Commerce Store"
-          bulletPoints={lootableBullets}
-          alt="Lootable Home Page"
-          src="/images/projects/lootable/home.png"
         />
       </div>
 
