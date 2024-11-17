@@ -27,9 +27,9 @@ const HonerableMentions = () => {
           trigger: honerableMentionsDivRef.current,
           start: "top bottom",
         },
-        scale: 0,
+        y: 60,
+        opacity: 0,
         duration: 0.3,
-        ease: "back",
         stagger: 0.3,
       });
     });
