@@ -2,11 +2,13 @@ import TimelineCard from "@/components/timeline-card";
 import NumberSubtitle from "../../../number-subtitle";
 import { Braces, Briefcase, Cpu, Globe, Laptop, Network } from "lucide-react";
 
-const PrivaseePoints = [
-  "One of two devs leading the Privasee website rebuild from the ground up, determining tech stack, project structure and CI CD.",
-  "Ran database migrations to convert poorly structured data into a more efficient format.",
-  "Implemented a new design system, improving the user experience and making the site more visually appealing.",
-  "Developed a new AI solution which automates compliance questionnaire completion, already producing large revenue increases.",
+const veraPoints = [
+  "Built entire AI-powered RFP/security questionnaire platform from ground up as a Founding Full Stack Engineer, architecting and developing with TypeScript - Next.js, Node.js, GraphQL, and MongoDB",
+  "Established and implemented robust engineering infrastructure including AWS deployment pipelines, monorepo architecture with Turborepo, comprehensive code quality tooling (ESLint, Syncpack), and full CI/CD automation with GitHub Actions (including unit, integration and e2e tests), ensuring deployment reliability and development velocity",
+  "Designed and implemented core AI agent that ingests documents and leverages company data to generate high-accuracy responses, reducing completion time from hours to minutes",
+  "Developed complete workflow management system tracking questionnaires from initiation through completion, handling end-to-end product lifecycle",
+  "Led successful 6-month product pivot from Privasee (regulatory compliance) to Vera, achieving rapid market traction with redesigned questionnaire completion process",
+  "Shaped engineering culture and made critical architectural decisions to enable scalability during company growth phase",
 ];
 
 const IBMPoints = [
@@ -47,7 +49,6 @@ const jamesPoints = [
   "Installed back-up batteries for the network to run without downtime in the event of a power cut.",
 ];
 
-// not the best but will do for now...
 const iconClassname = "text-muted-foreground size-10 my-4";
 
 const Work = () => {
@@ -57,9 +58,9 @@ const Work = () => {
 
       <div className="space-y-6 lg:space-y-0 overflow-hidden">
         <TimelineCard
-          bulletpoints={PrivaseePoints}
-          title="Senior Software Engineer"
-          company="Privasee"
+          bulletpoints={veraPoints}
+          title="Founding Full Stack Software Engineer"
+          company="Vera"
           time="2024 - Present"
           icon={<Braces className={iconClassname} />}
           right

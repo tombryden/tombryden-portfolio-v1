@@ -3,12 +3,6 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-// export const metadata: Metadata = {
-//   title: "Tom Bryden - Portfolio",
-//   description:
-//     "I harness the transformative power of programming and technology to drive innovation and deliver impactful solutions. With a rich skill set I craft dynamic, scalable digital solutions that meets the demands of today's world.",
-// };
-
 export default function RootLayout({
   children,
 }: Readonly<{

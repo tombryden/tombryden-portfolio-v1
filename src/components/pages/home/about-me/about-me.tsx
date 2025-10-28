@@ -5,15 +5,6 @@ const AboutMe = () => {
     <section>
       <NumberSubtitle number="01." title="About Me" />
 
-      {/* <p className="text-muted-foreground">
-        Hello! I&apos;m Tom, and my life has been an endless loop of
-        coding, coffee, and occasionally crying over a misplaced semicolon since
-        2012. My journey into the matrix began at the tender age of 12, armed
-        with nothing but a fierce passion and a Minecraft account. Yes, you read
-        that right. While most kids my age were trying to avoid doing homework,
-        I was busy crafting plugins for Minecraft in Java, proving once and for
-        all that I was the coolest kid in the virtual block (pun intended).
-      </p> */}
       <p className="text-muted-foreground">
         Hello and welcome to the portfolio of someone who started their
         programming journey in the most unconventional of classrooms: the
@@ -26,21 +17,31 @@ const AboutMe = () => {
       </p>
 
       <p className="text-muted-foreground mt-4">
-        Since 2018, I&apos;ve been working for IBM as an IT Consultant in the
-        UKI Quality Engineering Practice, where I began with a degree
-        apprenticeship, leading to a First-Class Honours in Digital & Technology
-        Solutions with a focus on Software Engineering. This path allowed me to
-        transition smoothly into a full-time role in 2022, where I&apos;ve
-        tackled diverse testing duties across various industries, enhancing my
-        skills in API stubbing and automation suite development.
+        Most recently, I&apos;ve had the privilege of being a founding engineer
+        at Vera, where I built the entire product from the ground up -
+        architecting and developing an AI-powered platform that revolutionised
+        how sales and pre-sales teams handle RFPs and security questionnaires. I
+        designed and implemented the complete technical infrastructure, creating
+        both the workflow management system and the core AI agent that generates
+        high-accuracy responses in minutes.
       </p>
 
       <p className="text-muted-foreground mt-4">
-        Before IBM, I was a Maker Leader at York Maker Hub, teaching young
-        learners about computing with Raspberry Pi&apos;s and Arduino&apos;s,
-        and leading STEM projects. Dive deeper into my portfolio to discover the
-        projects and adventures that have shaped my journey since those early
-        Minecraft days.
+        I specialise in delivering end-to-end solutions, from crafting intuitive
+        front-end experiences to architecting robust back-end systems and CI/CD
+        pipelines. I thrive in fast-paced environments where I can leverage my
+        technical versatility to solve complex problems and drive projects from
+        concept to production.
+      </p>
+
+      <p className="text-muted-foreground mt-4">
+        Before Vera, I spent five years at IBM where I honed my skills in
+        software consulting, working across various technologies and leading
+        multiple teams through critical phases of system integration and
+        regression testing. I&apos;m a proud First-Class Honours graduate from
+        Manchester Metropolitan University, where I completed IBM&apos;s
+        prestigious Digital & Technology Solutions Degree Apprenticeship,
+        combining academic excellence with real-world industry experience.
       </p>
     </section>
   );
