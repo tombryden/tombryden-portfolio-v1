@@ -58,7 +58,7 @@ const SideProjects = () => {
       </div>
 
       <AnimatedP className="text-xl md:text-3xl text-muted-foreground font-semibold mt-10 mb-10">
-        And some honerable mentions...
+        And some honourable mentions...
       </AnimatedP>
 
       <HonerableMentions />
