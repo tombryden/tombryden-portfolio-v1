@@ -3,7 +3,7 @@ import NumberSubtitle from "../../../number-subtitle";
 import { Braces, Briefcase, Cpu, Globe, Laptop, Network } from "lucide-react";
 
 const veraPoints = [
-  "Built entire AI-powered RFP/security questionnaire platform from ground up as a Founding Full Stack Engineer, architecting and developing with TypeScript - Next.js, Node.js, GraphQL, and MongoDB",
+  "Built the entire AI-powered RFP/security questionnaire platform from the ground up as a Founding Full Stack Engineer, architecting and developing with TypeScript - Next.js, Node.js, GraphQL, and MongoDB",
   "Established and implemented robust engineering infrastructure including AWS deployment pipelines, monorepo architecture with Turborepo, comprehensive code quality tooling (ESLint, Syncpack), and full CI/CD automation with GitHub Actions (including unit, integration and e2e tests), ensuring deployment reliability and development velocity",
   "Designed and implemented core AI agent that ingests documents and leverages company data to generate high-accuracy responses, reducing completion time from hours to minutes",
   "Developed complete workflow management system tracking questionnaires from initiation through completion, handling end-to-end product lifecycle",
