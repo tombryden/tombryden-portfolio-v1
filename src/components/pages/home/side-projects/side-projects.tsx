@@ -9,16 +9,16 @@ const adaprioBullets = [
   "Created website editor functionality so users can edit their area of the website with ease.",
   "Utilised Material UI for quick prototyping.",
   "Utilised DND Kit library for drag and drop interaction.",
-  "I created this project using React (Next.js 13 App Router) and Spring for GraphQL running on the back-end with MySQL. I also used Stripe API for payment integration.",
+  "I created this project using React (Next.js 13 App Router) and Node.js (Apollo Server) running on the back-end with MySQL. I also used Stripe API for payment integration.",
 ];
 
 const lootableBullets = [
-  "Having used Massdrop years ago, I wanted to recreate the website, where users can sign up and enter a ‘drop’ – essentially saying ‘I want to buy this item’. Once the drop reaches the number of users required for each milestone, or the time period expires, the ‘drop’ would occur and users would be charged for the item.",
-  "I coded this using React (Next.js + Material UI) and Java (Spring Boot REST API) with a MySQL database and Stripe integration.",
+  "Having used Massdrop years ago, I wanted to recreate the website, where users can sign up and enter a 'drop' - essentially saying 'I want to buy this item'. Once the drop reaches the number of users required for each milestone, or the time period expires, the 'drop' would occur and users would be charged for the item.",
+  "I coded this using React (Next.js + Material UI) and Node.js (Express REST API) with a MySQL database and Stripe integration.",
 ];
 
 const hotelPitBullets = [
-  "My dissertation had to bring benefit to IBM – so I created a website in React with a Java (Spring Boot REST API) back-end that implemented toggle-able bugs. This allowed testers to assess their testing capability whether that be in manual, automation, or performance testing.",
+  "My dissertation had to bring benefit to IBM - so I created a website in React with a Java (Spring Boot REST API) back-end that implemented toggle-able bugs. This allowed testers to assess their testing capability whether that be in manual, automation, or performance testing.",
   "The website was a mock of a hotel booking website to simulate real-life scenarios testers might experience when working for a client of IBM.",
   "Utilised the Material UI library for quick design implementation.",
   "Achieved a First-Class grade.",
