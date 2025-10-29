@@ -18,9 +18,11 @@ const LanguagesTyped = () => {
         "Java.",
         "Spring Boot.",
         "GraphQL.",
+        "REST.",
         "C#.",
         "C++.",
-        "MySQL.",
+        "SQL.",
+        "NoSQL.",
       ]}
     />
   );

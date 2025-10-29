@@ -24,6 +24,13 @@ const hotelPitBullets = [
   "Achieved a First-Class grade.",
 ];
 
+const screengoBullets = [
+  "An AI-powered screen recording platform built specifically for developers. After battling constant issues with Loom as a Linux user, I decided to build my own solution.",
+  "Built a working MVP in a few weekends featuring video editing capabilities, collaborative comments, AI-powered analysis, and automatic transcription using OpenAI Whisper.",
+  "Leveraged Next.js for rapid full-stack development (both frontend and backend), DynamoDB for data persistence, Vercel AI SDK for AI integrations, and Shadcn for UI components.",
+  "Currently in active use in my daily workflow as a Loom replacement.",
+];
+
 const SideProjects = () => {
   return (
     <section>
@@ -35,6 +42,23 @@ const SideProjects = () => {
       </AnimatedP>
 
       <div className="space-y-20 mt-10">
+        <AnimatedDescriptionImage
+          title="Screengo - AI-powered Screen Recording"
+          bulletPoints={screengoBullets}
+          alt="ScreenGo Home Page"
+          src="/images/projects/screengo/home.png"
+          afterBullet={
+            <a
+              href="https://screengo.ai"
+              className="text-primary hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Screengo is live and used by me daily, check it out!
+            </a>
+          }
+        />
+
         <AnimatedDescriptionImage
           title="Lootable - Group Buying E-Commerce Store"
           bulletPoints={lootableBullets}
